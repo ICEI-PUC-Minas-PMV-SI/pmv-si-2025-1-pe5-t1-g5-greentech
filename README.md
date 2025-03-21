@@ -7,7 +7,7 @@
 
 `Eixo: 5`
 
-O presente repositório abriga o projeto de infraestrutura de uma empresa fictícia chamada Greentech. Essa empresa trabalho com o desenvolvimento e manufatura de equipamentos elétricos. Possui uma matriz e 3 filias, sendo, assim, esse o desafio. Estruturar a infraestrutura de rede que suporta as operações e a interconexão entre matriz e filias.
+O presente repositório abriga o projeto de infraestrutura de uma empresa fictícia chamada Greentech. Essa empresa trabalha com o desenvolvimento e manufatura de equipamentos elétricos. Possui uma matriz e 3 filiais, sendo, assim, esse o desafio. Estruturar a infraestrutura de rede que suporta as operações e a interconexão entre matriz e filiais.
 
 Quanto ao planejamento de rede, visa-se garantir uma infraestrutura segura, escalável e de alta disponibilidade, conectando matriz e filiais por um backbone dedicado. A rede será baseada no modelo TCP/IP, utilizando IPv4/IPv6, DHCP, DNS, VPN, HTTPS e SSH. Os principais componentes incluem servidores para armazenamento e autenticação, monitoramento via Zabbix, firewall corporativo, switches gerenciáveis, roteadores e Wi-Fi segmentado com WPA3. A topologia estrela foi escolhida por sua confiabilidade e facilidade de manutenção, e a segmentação da rede será organizada em WAN (VPN), LAN (locais) e DMZ (acesso externo).
 
