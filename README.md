@@ -1,5 +1,5 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/9lYuEWwT)
-# Título do Projeto
+#  Projeto de Infraestrutura Greentech (Manufatura)
 
 `CURSO: Sistemas de Informação`
 
@@ -7,7 +7,9 @@
 
 `Eixo: 5`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O presente repositório abriga o projeto de infraestrutura de uma empresa fictícia chamada Greentech. Essa empresa trabalho com o desenvolvimento e manufatura de equipamentos elétricos. Possui uma matriz e 3 filias, sendo, assim, esse o desafio. Estruturar a infraestrutura de rede que suporta as operações e a interconexão entre matriz e filias.
+
+Quanto ao planejamento de rede, visa-se garantir uma infraestrutura segura, escalável e de alta disponibilidade, conectando matriz e filiais por um backbone dedicado. A rede será baseada no modelo TCP/IP, utilizando IPv4/IPv6, DHCP, DNS, VPN, HTTPS e SSH. Os principais componentes incluem servidores para armazenamento e autenticação, monitoramento via Zabbix, firewall corporativo, switches gerenciáveis, roteadores e Wi-Fi segmentado com WPA3. A topologia estrela foi escolhida por sua confiabilidade e facilidade de manutenção, e a segmentação da rede será organizada em WAN (VPN), LAN (locais) e DMZ (acesso externo).
 
 ## Integrantes
 
