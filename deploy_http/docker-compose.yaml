@@ -1,0 +1,54 @@
+# Versão do compose
+version: '3'
+
+# Definição dos serviços/containers que serão coordenados pelo compose.
+services:
+
+  # Container/serviço do nginx:
+  nginx:
+  
+    # Com 'image' definimos qual é a referência que o serviço usará para buildar.
+    # Primeiro busca localmente, depois no Docker Hub. O padrão é o seguinte:
+    # image: <nome da imagem>:<versão>
+    #
+    # No nosso caso usamos a iamgem oficil nginx na sua versão mais nova.
+    image: nginx:latest
+
+    # A diretiva 'volumes' é prática para passar arquivos do host para um
+    # container ou vice-versa. No nosso caso, estamos copiando o arquivo
+    # customizado nginx.conf do host para o /etc/nginx/nginx.conf do con-
+    # tainer que roda o nginx. 
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+
+    # 'ports' define qual porta que será exposta para esse serviço.
+    # quando apenas tiver uma porta definida (Por exemplo: '- 80')
+    # é a porta exposta na rede dos containers e não do host. Porém,
+    # quando definida como '- 80:80' estamos expondo a porta 80 do
+    # container para a porta 80 do host. No nosso caso isso é importante
+    # pois o nginx irá ser a porta entrada das requisições HTTP do nosso
+    # servidor.
+    ports:
+      - "80:80"
+
+    # 'depends_on' define os serviços dos quais esse depende, logo, serão
+    # iniciados antes do nginx. Isso é importante para que serviços dependen-
+    # tes entre si não se desorganizem.
+    depends_on:
+      - app_exemplo_1
+      - app_exemplo_2
+
+  # Container/serviço de testes:
+  app_exemplo_1:
+
+    # 'build' orienta o compose a usar a Dockerfile existente nesse diretorio para
+    # construir a imagem que será usada para esse serviço.
+    build: ./app_exemplo_1
+    expose:
+      - "8000"
+
+  # Container/serviço de testes:
+  app_exemplo_2:
+    build: ./app_exemplo_2
+    expose:
+      - "8080"
