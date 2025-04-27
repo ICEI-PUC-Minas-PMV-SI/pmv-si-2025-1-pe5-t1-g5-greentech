@@ -14,6 +14,11 @@ services:
     # No nosso caso usamos a iamgem oficil nginx na sua versão mais nova.
     image: nginx:latest
 
+    # Caso a aplicação acabe crashando o serviço será reiniciado.
+    # Importante também para o systemd do docker reiniciar o serviço
+    # assim que um reboot acontecer.
+    restart: always 
+
     # A diretiva 'volumes' é prática para passar arquivos do host para um
     # container ou vice-versa. No nosso caso, estamos copiando o arquivo
     # customizado nginx.conf do host para o /etc/nginx/nginx.conf do con-
@@ -35,20 +40,33 @@ services:
     # iniciados antes do nginx. Isso é importante para que serviços dependen-
     # tes entre si não se desorganizem.
     depends_on:
-      - app_exemplo_1
-      - app_exemplo_2
+      - matriz
+      - filial_1
+      - filial_2
+      - filial_3
 
-  # Container/serviço de testes:
-  app_exemplo_1:
-
+  matriz:
     # 'build' orienta o compose a usar a Dockerfile existente nesse diretorio para
     # construir a imagem que será usada para esse serviço.
-    build: ./app_exemplo_1
+    build: ./matriz
+    restart: always
+    expose:
+      - "8030"
+
+  filial_1:
+    build: ./filial_1
+    restart: always
     expose:
       - "8000"
 
-  # Container/serviço de testes:
-  app_exemplo_2:
-    build: ./app_exemplo_2
+  filial_2:
+    build: ./filial_2
+    restart: always
     expose:
-      - "8080"
+      - "8010"
+
+  filial_3:
+    build: ./filial_3
+    restart: always
+    expose:
+      - "8020"
