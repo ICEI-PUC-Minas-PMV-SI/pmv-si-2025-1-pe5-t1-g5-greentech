@@ -16,3 +16,7 @@ Também fui responsável pela edição do vídeo de apresentação e pelo envio 
 Na etapa 2, eu criei o banco de dados no AWS Aurora, configurando-o de maneira adequada para a comunicação com outros serviços. Em seguida, criei uma instância EC2, que funcionará como o servidor de aplicação. Para garantir que a instância EC2 pudesse acessar o banco de dados, realizei a configuração necessária para permitir a comunicação entre eles. Após isso, acessei a instância EC2 remotamente e instalei o MySQL, conectando-a ao banco de dados RDS. Com isso, garanti que o servidor e o banco de dados estivessem integrados e prontos para as próximas etapas do projeto.
 
 A experiência foi desafiadora, com muitos erros e acertos ao longo do processo. Para superar as dificuldades, busquei tutoriais no YouTube, estudei o conteúdo no Canvas da PUC, recorri às IAs e assisti as aulas extras. Além disso, a ajuda dos meus colegas foi fundamental para tornar o processo mais fácil e facilitar a resolução dos problemas que surgiram.
+
+**João
+Na etapa 2 ajudei a configurar o AD e o GPO. Criando domínios e e configurando as políticas para determinados grupos. Também tentei configurar um server DHCP em linux Ubuntu, o que não deu tão certo assim.
+
