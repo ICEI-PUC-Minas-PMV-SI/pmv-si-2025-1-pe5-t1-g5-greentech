@@ -20,3 +20,6 @@ A experiência foi desafiadora, com muitos erros e acertos ao longo do processo.
 **João**
 Na etapa 2 ajudei a configurar o AD e o GPO. Criando domínios e e configurando as políticas para determinados grupos. Também tentei configurar um server DHCP em linux Ubuntu, o que não deu tão certo assim.
 
+**Tales Hein**
+Configurei o servidor HTTP em uma instância EC2 na AWS usando Nginx e docker para o deploy. Também escrevi a documentação expondo como foi feito o setup e o vídeo que demonstra como isso foi feito.
+
