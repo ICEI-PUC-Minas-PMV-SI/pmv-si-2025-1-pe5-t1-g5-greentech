@@ -18,7 +18,7 @@ Na etapa 2, eu criei o banco de dados no AWS Aurora, configurando-o de maneira a
 A experiência foi desafiadora, com muitos erros e acertos ao longo do processo. Para superar as dificuldades, busquei tutoriais no YouTube, estudei o conteúdo no Canvas da PUC, recorri às IAs e assisti as aulas extras. Além disso, a ajuda dos meus colegas foi fundamental para tornar o processo mais fácil e facilitar a resolução dos problemas que surgiram.
 
 **João**
-Na etapa 2 ajudei a configurar o AD e o GPO. Criando domínios e e configurando as políticas para determinados grupos. Também tentei configurar um server DHCP em linux Ubuntu, o que não deu tão certo assim.
+Na etapa 2 ajudei a configurar o AD e o GPO. Criando domínios e e configurando as políticas para determinados grupos. Também configurei um server DHCP em linux Ubuntu, uma implementação não tão completa com todos os ranges como a do Gabriel.
 
 **Tales Hein**
 Configurei o servidor HTTP em uma instância EC2 na AWS usando Nginx e docker para o deploy. Também escrevi a documentação expondo como foi feito o setup e o vídeo que demonstra como isso foi feito.
