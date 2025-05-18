@@ -34,4 +34,4 @@ Durante esta etapa do projeto, fui responsável pela configuração e implementa
 
 Mantive-me disponível durante todo o processo para prestar suporte técnico, orientações e esclarecimentos de dúvidas relacionadas à configuração dos agentes Zabbix e integração dos Hosts.
 
-Atuei diretamente na criação do ambiente de visualização de monitoramento, realizando a integração com o Grafana para desenvolvimento de dashboards personalizados, e configurei o Portainer para monitoramento e gerenciamento exclusivo dos containers Docker utilizados na EC2. As ações tomadas seguiram o plano definido em reunião com o professor orientador do projeto.
+Atuei diretamente na criação do ambiente de visualização de monitoramento, realizando a integração com o Grafana para desenvolvimento de dashboards personalizados, As ações tomadas seguiram o plano definido em reunião com o professor orientador do projeto.
