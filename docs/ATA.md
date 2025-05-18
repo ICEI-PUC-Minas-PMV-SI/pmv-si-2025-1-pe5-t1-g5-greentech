@@ -30,4 +30,8 @@ ________________________________________________________________________________
 Etapa 3 
 **Gabriel Amorim Santos Maia - Etapa 3**
 
-Durante esse etapa fui responsável pela configuração e implementação do Zabbix Server em ambiente AWS, comunicando diretamente com os demais Hosts(MVs que o restante do grupo criou), a criação dos demais Hosts e disponibilização para integração ao ambiente de monitoramento era responsável individual, estive disponível quando necessário para auxilio nas configurações e dúvidas referentes a essa etapa. Atuei na criação do ambiente de mnonitoramento desenvolvendo o Dashboard no Grafana e monitoramento exclusivo dos Containers da EC2 via Portainer. Tivemos uma reunião com o professor para orientação do projeto e segui conforme o conversado e planejado. 
+Durante esta etapa do projeto, fui responsável pela configuração e implementação do Zabbix Server em ambiente AWS (EC2), garantindo sua correta comunicação com os demais Hosts criados em máquinas virtuais (VMs) pelos demais integrantes do grupo. A criação e disponibilização desses Hosts para integração ao ambiente de monitoramento foi definida como responsabilidade individual de cada membro do grupo. Cada integrante ficou encarregado de configurar seu ambiente para estabelecer comunicação com o servidor Zabbix.
+
+Mantive-me disponível durante todo o processo para prestar suporte técnico, orientações e esclarecimentos de dúvidas relacionadas à configuração dos agentes Zabbix e integração dos Hosts.
+
+Atuei diretamente na criação do ambiente de visualização de monitoramento, realizando a integração com o Grafana para desenvolvimento de dashboards personalizados, e configurei o Portainer para monitoramento e gerenciamento exclusivo dos containers Docker utilizados na EC2. As ações tomadas seguiram o plano definido em reunião com o professor orientador do projeto.
