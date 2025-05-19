@@ -35,3 +35,6 @@ Durante esta etapa do projeto, fui responsável pela configuração e implementa
 Mantive-me disponível durante todo o processo para prestar suporte técnico, orientações e esclarecimentos de dúvidas relacionadas à configuração dos agentes Zabbix e integração dos Hosts.
 
 Atuei diretamente na criação do ambiente de visualização de monitoramento, realizando a integração com o Grafana para desenvolvimento de dashboards personalizados, As ações tomadas seguiram o plano definido em reunião com o professor orientador do projeto.
+
+**João**
+Na etapa 3 atuei na revisão e formatação do texto do documento, se assegurando que ele estivesse coerente, com informações atualizadas do projeto e legível.
