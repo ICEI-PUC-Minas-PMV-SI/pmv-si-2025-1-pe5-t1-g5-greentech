@@ -38,3 +38,6 @@ Atuei diretamente na criação do ambiente de visualização de monitoramento, r
 
 **João**
 Na etapa 3 atuei na revisão e formatação do texto do documento, se assegurando que ele estivesse coerente, com informações atualizadas do projeto e legível.
+
+**Tales Hein - Etapa 3**
+Fui responsável por configurar o servidor HTTP para o acompanhamento via Zabbix. O serviço HTTP está numa instância EC2 e foi instalado o zabbix agent nessa instância para que um servidor externo possa puxar os dados. Foram feitas alterações nos exemplos de teste rodando nos conteiners do serviço http para que os recursos fossem utilizados e a observabilidade trazida pelo zabbix fosse evidenciada.
