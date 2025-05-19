@@ -41,7 +41,9 @@ Na etapa 3 atuei na revisão e formatação do texto do documento, se assegurand
 **Tales Hein - Etapa 3**
 Fui responsável por configurar o servidor HTTP para o acompanhamento via Zabbix. O serviço HTTP está numa instância EC2 e foi instalado o zabbix agent nessa instância para que um servidor externo possa puxar os dados. Foram feitas alterações nos exemplos de teste rodando nos conteiners do serviço http para que os recursos fossem utilizados e a observabilidade trazida pelo zabbix fosse evidenciada.
 
-
 **Lucas Brandão Guedes - Etapa 3**
 Fui responsável por instalar o zabbix agent na máquina local onde estava o protocolo FTP e NFS rodando. Fiz a comunicação com o zabbix server na máquina virtual no ambiente da AWS criado pelo Gabriel Amorim. 
 Contudo para aprendizado também instalei o Zabbix Appliance na minha máquina local e monitorei os dados da mesma.
+
+**Daniela Sofia Fernandes de Assis - Etapa 3**
+Levando em conta a instância EC2 criada na etapa 2, instalei o Zabbix-Agent nela para que comunicasse com o Zabbix Server configurado pelo Gabriel Amorim. A conexão foi realizada com sucesso e a EC2 pode ser monitorada pelo Zabbix. Por fim, participei da construção do documento do grupo.
