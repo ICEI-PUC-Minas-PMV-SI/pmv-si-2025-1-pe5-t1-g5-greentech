@@ -29,7 +29,6 @@ ________________________________________________________________________________
 
 Etapa 3 
 **Gabriel Amorim Santos Maia - Etapa 3**
-
 Durante esta etapa do projeto, fui responsável pela configuração e implementação do Zabbix Server em ambiente AWS (EC2) e configuração do Zabbix-Agent na VM Servidor Active Directory, garantindo sua correta comunicação com os demais Hosts criados em máquinas virtuais (VMs) pelos demais integrantes do grupo. A criação e disponibilização desses Hosts para integração ao ambiente de monitoramento foi definida como responsabilidade individual de cada membro do grupo. Cada integrante ficou encarregado de configurar seu ambiente para estabelecer comunicação com o servidor Zabbix.
 
 Mantive-me disponível durante todo o processo para prestar suporte técnico, orientações e esclarecimentos de dúvidas relacionadas à configuração dos agentes Zabbix e integração dos Hosts.
@@ -41,3 +40,8 @@ Na etapa 3 atuei na revisão e formatação do texto do documento, se assegurand
 
 **Tales Hein - Etapa 3**
 Fui responsável por configurar o servidor HTTP para o acompanhamento via Zabbix. O serviço HTTP está numa instância EC2 e foi instalado o zabbix agent nessa instância para que um servidor externo possa puxar os dados. Foram feitas alterações nos exemplos de teste rodando nos conteiners do serviço http para que os recursos fossem utilizados e a observabilidade trazida pelo zabbix fosse evidenciada.
+
+
+**Lucas Brandão Guedes - Etapa 3**
+Fui responsável por instalar o zabbix agent na máquina local onde estava o protocolo FTP e NFS rodando. Fiz a comunicação com o zabbix server na máquina virtual no ambiente da AWS criado pelo Gabriel Amorim. 
+Contudo para aprendizado também instalei o Zabbix Appliance na minha máquina local e monitorei os dados da mesma.
