@@ -51,6 +51,7 @@ Levando em conta a instância EC2 criada na etapa 2, instalei o Zabbix-Agent nel
 ______________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 Etapa 4 
+
 **Lucas Brandão Guedes - Etapa 4**
 Durante esta etapa do projeto, fui responsável pela formatação do documento no padrão ABNT. Consegui adiantar bastante. Contudo faltou incluir os novos conteúdos da etapa 4, pois o grupo ainda nao tinha enviado para ser inserido no documento até o dia deste apontamento 07/06/25 15h40.
 
