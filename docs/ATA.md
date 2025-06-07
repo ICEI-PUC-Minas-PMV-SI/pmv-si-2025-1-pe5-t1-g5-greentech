@@ -28,6 +28,7 @@ Configurei o servidor HTTP em uma instância EC2 na AWS usando Nginx e docker pa
 ______________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 Etapa 3 
+
 **Gabriel Amorim Santos Maia - Etapa 3**
 Durante esta etapa do projeto, fui responsável pela configuração e implementação do Zabbix Server em ambiente AWS (EC2) e configuração do Zabbix-Agent na VM Servidor Active Directory, garantindo sua correta comunicação com os demais Hosts criados em máquinas virtuais (VMs) pelos demais integrantes do grupo. A criação e disponibilização desses Hosts para integração ao ambiente de monitoramento foi definida como responsabilidade individual de cada membro do grupo. Cada integrante ficou encarregado de configurar seu ambiente para estabelecer comunicação com o servidor Zabbix.
 
