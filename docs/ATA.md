@@ -56,4 +56,6 @@ Etapa 4
 **Lucas Brandão Guedes - Etapa 4**
 Durante esta etapa do projeto, fui responsável pela formatação do documento no padrão ABNT. Consegui adiantar bastante. Contudo faltou incluir os novos conteúdos da etapa 4, pois o grupo ainda nao tinha enviado para ser inserido no documento até o dia deste apontamento 07/06/25 15h40.
 
+**Tales Hein - Etapa 4**
+Nesta etapa fui responsável por fazer a análise de vulnerabilidade da infraestrutura AWS implementada pelo grupo até o momento. Foi feita a analise com base no OWASP Top Ten, sendo identificados problemas principalmente em relação à uma implementação mais segura potencialmente usando IAM Roles, o use de TLS (HTTPS) para encripção da comunicação, e um controle mais forte sobre o acesso das instâncias e do RDS, usando sub-redes privadas e grupos de segurança mais rígidos.
 
