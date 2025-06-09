@@ -67,3 +67,5 @@ Além disso, desenvolvi uma cartilha de segurança da informação com o objetiv
 **João**
 Na etapa 4, atuei na escrita de resumos e na formatação do documento, garantindo que as informações estivessem claras, organizadas e de acordo com os objetivos do projeto.
 
+**Gabriel Amorim - Etapa 4**
+Nesta etapa do projeto, o grupo foi responsável pela elaboração de documentações técnicas e descritivas, essenciais para organização do trabalho. Acompanhei o processo de criação desses documento, porém sem intervir diretamente em sua elaboração, conciliando esse acompanhamento com os estudos dos microfundamentos da disciplina. Essa abordagem permitiu manter o alinhamento com os objetivos da etapa, mesmo sem participação prática na produção textual. 
