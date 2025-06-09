@@ -59,3 +59,7 @@ Durante esta etapa do projeto, fui responsável pela formatação do documento n
 **Tales Hein - Etapa 4**
 Nesta etapa fui responsável por fazer a análise de vulnerabilidade da infraestrutura AWS implementada pelo grupo até o momento. Foi feita a analise com base no OWASP Top Ten, sendo identificados problemas principalmente em relação à uma implementação mais segura potencialmente usando IAM Roles, o use de TLS (HTTPS) para encripção da comunicação, e um controle mais forte sobre o acesso das instâncias e do RDS, usando sub-redes privadas e grupos de segurança mais rígidos.
 
+**Daniela Sofia Fernandes de Assis - Etapa 4**
+Nesta etapa do projeto, eu elaborei a Política de Segurança da Informação (PSI), definindo as diretrizes e responsabilidades relacionadas à proteção de dados dentro do escopo do projeto. O documento foi construído com base em dois modelos de referência: o modelo fornecido pelo governo brasileiro através do Programa de Privacidade e Segurança da Informação (PPSI) e o modelo apresentado no material de apoio da disciplina.
+
+Além disso, desenvolvi uma cartilha de segurança da informação com o objetivo de orientar os integrantes do projeto sobre boas práticas no uso de sistemas e no tratamento de dados pessoais e sensíveis. A cartilha apresenta o conteúdo de forma clara e acessível, buscando promover a conscientização e fortalecer a cultura de segurança da informação entre todos os envolvidos.
