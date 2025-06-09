@@ -1,6 +1,8 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/9lYuEWwT)
 #  Projeto de Infraestrutura Greentech (Manufatura)
 
+![png](https://github.com/user-attachments/assets/e4bfb51e-e6e7-4414-848b-c00be904f87d)
+
 `CURSO: Sistemas de Informação`
 
 `DISCIPLINA: Projeto - Projeto de Infraestrutura`
