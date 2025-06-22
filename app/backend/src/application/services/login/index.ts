@@ -11,13 +11,13 @@ export default class LoginService {
     });
 
     if (!user) {
-      throw new Error("Invalid email or password");
+      throw new Error("Senha ou email inválidos.");
     }
 
     const passwordMatch = await bcrypt.compare(password, user.passwordHash);
 
     if (!passwordMatch) {
-      throw new Error("Invalid email or password");
+      throw new Error("Senha ou email inválidos.");
     }
 
     const payload = {
