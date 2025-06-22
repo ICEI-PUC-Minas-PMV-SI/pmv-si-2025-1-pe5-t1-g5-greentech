@@ -11,7 +11,7 @@ const UniqueRouter = Router({ mergeParams: true })
     .put("/", validator(update), UserController.update);
 
 const UserRouter = Router({ mergeParams: true })
-    // .use(verifyToken)
+    .use(verifyToken)
     .param("userId", validatorSingle(unique))
     .use("/:userId", UniqueRouter)
     .get("/", UserController.getAll)
