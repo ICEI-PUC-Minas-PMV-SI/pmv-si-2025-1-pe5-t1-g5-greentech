@@ -2,7 +2,7 @@ import jwt from "jsonwebtoken";
 import { NextFunction, Request, Response } from "express";
 import { JWT_SECRET } from "@config/env";
 
-export const authToken = async <
+export const verifyToken = async <
     Req extends Request<any, any, any, any>,
     Res extends Response,
     Next extends NextFunction,
