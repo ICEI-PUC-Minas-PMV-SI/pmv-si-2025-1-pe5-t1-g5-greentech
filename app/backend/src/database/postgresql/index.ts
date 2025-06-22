@@ -1,4 +1,3 @@
-import { DEVELOPMENT } from "@config/env/index";
 import { PrismaClient } from "@prisma/client";
 
 interface CustomNodeJsGlobal extends Global {
@@ -19,7 +18,7 @@ const prisma =
   global.prisma ||
   new PrismaClient({ log: [{ emit: "event", level: "query" }], });
 
-if (DEVELOPMENT) global.prisma = prisma;
+global.prisma = prisma;
 
 // prisma.$on("query", (e) =>
 //   console.log(

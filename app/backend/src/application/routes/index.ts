@@ -1,13 +1,9 @@
 import { Router } from "express";
-import TesteRouter from "./teste";
-import CollectorRouter from "./collector";
-import WorkerRouter from "./worker";
-import DataRouter from "./data";
+import LoginRouter from "@routes/login";
+import UserRouter from "@routes/user";
 
 const routes = Router({ mergeParams: true })
-  .use("/teste", TesteRouter)
-  .use("/collector", CollectorRouter)
-  .use("/worker", WorkerRouter)
-  .use("/data", DataRouter);
+  .use("/login", LoginRouter)
+  .use("/user", UserRouter);
 
 export default routes;
