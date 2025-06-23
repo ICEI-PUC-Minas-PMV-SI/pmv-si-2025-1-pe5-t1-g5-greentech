@@ -6,6 +6,6 @@ import { Router } from "express";
 
 const LoginRouter = Router({ mergeParams: true })
     .use(loginRateLimiter)
-    .get("/", validator(credentials), LoginController.authenticateUser);
+    .post("/", validator(credentials), LoginController.authenticateUser);
 
 export default LoginRouter;
