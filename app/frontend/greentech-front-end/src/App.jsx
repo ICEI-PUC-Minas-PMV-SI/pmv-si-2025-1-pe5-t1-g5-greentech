@@ -12,20 +12,39 @@ function App() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    if (token) {
-      localStorage.setItem('token', token);
-      try {
-        const decoded = jwtDecode(token);
-        setUser(decoded);
-      } catch (e) {
-        console.error('Invalid token', e);
-        setUser(null);
-      }
-    } else {
+    if (!token) {
       localStorage.removeItem('token');
       setUser(null);
+      return;
     }
-  }, [token]);
+
+    let decoded;
+    try {
+      decoded = jwtDecode(token);
+    } catch (err) {
+      console.error('JWT decode failed:', err);
+      setToken(null);
+      return;
+    }
+
+    const expiresAt = decoded.exp * 1000;
+    if (Date.now() >= expiresAt) {
+      console.warn('JWT is already expired');
+      setToken(null);
+      return;
+    }
+
+    setUser(decoded);
+    localStorage.setItem('token', token);
+
+    const msUntilExpiry = expiresAt - Date.now();
+    const timeoutId = setTimeout(() => {
+      setToken(null);
+      navigate('/login');
+    }, msUntilExpiry);
+
+    return () => clearTimeout(timeoutId);
+  }, [token, navigate]);
 
   const logout = () => {
     setToken(null);
@@ -42,12 +61,15 @@ function App() {
         <Route
           path="/users/*"
           element={
-            user && (user.permission === 'Admin' || user.permission === 'RH')
+            user
               ? <UsersPage />
               : <Navigate to="/login" />
           }
         />
-        <Route path="*" element={<Navigate to={user ? '/users' : '/login'} />} />
+        <Route
+          path="*"
+          element={<Navigate to={user ? '/users' : '/login'} />}
+        />
       </Routes>
     </AuthContext.Provider>
   );
