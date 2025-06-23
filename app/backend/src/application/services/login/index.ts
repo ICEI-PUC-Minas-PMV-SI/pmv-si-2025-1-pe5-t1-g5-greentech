@@ -23,6 +23,8 @@ export default class LoginService {
     const payload = {
       sub: user.id,
       email: user.email,
+      name: user.name,
+      permission: user.permission,
     };
 
     const token = jwt.sign(payload, JWT_SECRET, {
@@ -35,6 +37,7 @@ export default class LoginService {
         id: user.id,
         email: user.email,
         name: user.name,
+        permission: user.permission,
       },
     };
   }
