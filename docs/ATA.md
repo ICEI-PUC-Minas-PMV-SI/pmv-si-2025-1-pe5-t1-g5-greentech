@@ -78,3 +78,7 @@ Na etapa 5, etapa final do projeto, fui responsável pela escrita do resumo e co
 
 **Tales Hein - Etapa 5**
 Fiz a implementação do back-end e frontend que foram usados para o exemplo do deploy em infraestrutura cloud. Também ao passo que fazia o desenvolvimento também organizei e executei o deploy das aplicações.
+
+**Gabriel Amorim - Etapa 5**
+Na etapa 5, participei ativamente no apoio à criação da apresentação utilizando o Canva, colaborando com o grupo na construção de cada slide e na atualização do documento com as informações mais recentes. Também fui responsável pela apresentação da parte referente ao monitoramento e ao ambiente AWS.
+
