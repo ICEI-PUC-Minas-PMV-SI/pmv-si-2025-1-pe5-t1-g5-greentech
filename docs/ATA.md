@@ -70,3 +70,7 @@ Na etapa 4, atuei na escrita de resumos e na formatação do documento, garantin
 
 **Gabriel Amorim - Etapa 4**
 Nesta etapa do projeto, o grupo foi responsável pela elaboração de documentações técnicas e descritivas, essenciais para organização do trabalho. Acompanhei o processo de criação desses documento, porém sem intervir diretamente em sua elaboração, conciliando esse acompanhamento com os estudos dos microfundamentos da disciplina. Essa abordagem permitiu manter o alinhamento com os objetivos da etapa, mesmo sem participação prática na produção textual. 
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+**Daniela Sofia Fernandes de Assis - Etapa 5**
+Na etapa 5, etapa final do projeto, fui responsável pela escrita do resumo e conclusão do relatório técnico, além de ajudar na revisão dos slides e na concepção da aplicação backend.
