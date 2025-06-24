@@ -82,3 +82,5 @@ Fiz a implementação do back-end e frontend que foram usados para o exemplo do 
 **Gabriel Amorim - Etapa 5**
 Na etapa 5, participei ativamente no apoio à criação da apresentação utilizando o Canva, colaborando com o grupo na construção de cada slide e na atualização do documento com as informações mais recentes. Também fui responsável pela apresentação da parte referente ao monitoramento e ao ambiente AWS.
 
+**Lucas Brandão Guedes - Etapa 5**
+Fui responsável por formatar o documento oficial em artigo técnico nos padrões ABNT e conforme modelo da PUC Minas.
